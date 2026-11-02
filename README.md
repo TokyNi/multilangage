@@ -1,3 +1,4 @@
+
 # Multilangage
 
 Application web multilingue avec une API FastAPI et une interface React. Les langues disponibles sont le français (`fr`), l’anglais (`en`) et le malgache (`mg`)
