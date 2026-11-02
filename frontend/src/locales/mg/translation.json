@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Multilangage",
+    "tagline": "Sehatra ahitana fiteny telo: Malagasy • Frantsay • Anglisy",
+    "badge": "Tetikasa amin'ny Fiteny Telo"
+  },
+  "nav": {
+    "home": "Fandraisana",
+    "about": "Momba anay",
+    "catalog": "Katalogy",
+    "api_docs": "Torolalana API",
+    "status_connected": "Mifandray ny Backend",
+    "status_disconnected": "Tsy mifandray ny Backend"
+  },
+  "hero": {
+    "badge": "🇲🇬 Malagasy • 🇫🇷 Français • 🇬🇧 English",
+    "title_part1": "Fitaovana nomerika tsy misy fetra,",
+    "title_part2": "amin'ny fiteny telo velona sy manankarena.",
+    "subtitle": "Soloy avy hatrany ny fiteny eo amin'ny Frontend (React + i18next) sy ny Backend (FastAPI). Miova ho azy ny votoatiny, ny hafatra ary ny sokajin'ny entana rehetra.",
+    "btn_explore": "Hijery ny Katalogy",
+    "btn_about": "Hahalala Bebe Kokoa",
+    "btn_add_item": "Hampiditra Entana"
+  },
+  "features": {
+    "instant_i18n_title": "Fisafidianana Fiteny Haingana",
+    "instant_i18n_desc": "Mifindrà eo no ho eo amin'ny teny Malagasy, Frantsay na Anglisy tsy mila mamerina mampiditra pejy.",
+    "fullstack_title": "Fifandraisana Frontend sy Backend",
+    "fullstack_desc": "FastAPI dia mandray sy mampifanaraka avy hatrany ny fiteny amin'ny alalan'ny Accept-Language na paramètre ?lang=.",
+    "rich_content_title": "Harem-bakoky ny Nosintsika",
+    "rich_content_desc": "Fantaro ireo vokatra mampiavaka an'i Madagasikara nohazavaina tsara amin'ny fiteny tsirairay avy."
+  },
+  "catalog": {
+    "title": "Katalogy ny Harem-bakoka sy ny Vokatra",
+    "subtitle": "Ny entana rehetra dia voatahiry amin'ny teny Malagasy, Frantsay ary Anglisy, aroson'ny FastAPI.",
+    "search_placeholder": "Hikaroka entana, zava-manitra, asa tanana...",
+    "category_all": "Ny entana rehetra",
+    "category_spices": "Zava-manitra",
+    "category_handicraft": "Asa tanana",
+    "category_textile": "Lamba sy landy",
+    "category_coffee": "Kafe avo lenta",
+    "in_stock": "Misy tahiry",
+    "out_of_stock": "Tapitra ny tahiry",
+    "price_label": "Vidiny",
+    "loading": "Maka ny tahiry avy amin'ny FastAPI backend...",
+    "error_loading": "Tsy afaka mifandray amin'ny FastAPI backend. Hamarino tsara fa mandeha eo amin'ny seranana 8000 izy.",
+    "empty": "Tsy misy entana mifanaraka amin'ny fikarohanao.",
+    "details_btn": "Andininy amin'ny fiteny maro",
+    "delete_btn": "Fafana"
+  },
+  "item_modal": {
+    "title": "Hampiditra entana amin'ny fiteny telo",
+    "subtitle": "Fenoy ny mombamomba ny entana amin'ny teny telo ho fampisehoana feno.",
+    "name_fr": "Anarana (Frantsay)",
+    "name_mg": "Anarana (Malagasy)",
+    "name_en": "Anarana (Anglisy)",
+    "desc_fr": "Famaritana (Frantsay)",
+    "desc_mg": "Famaritana (Malagasy)",
+    "desc_en": "Famaritana (Anglisy)",
+    "category": "Sokajy",
+    "price": "Vidiny (€)",
+    "submit": "Tehirizo ny entana",
+    "cancel": "Aoka ihany",
+    "success": "Voatahiry soa aman-tsara ny entana!"
+  },
+  "about": {
+    "title": "Rafitra Matanjaka amin'ny Fiteny Maro",
+    "subtitle": "Namboarina mba hanandratana ny teny Malagasy sy ny fisokafana amin'izao tontolo izao.",
+    "section_languages_title": "Ireo Fiteny Telo Ivo-toerana",
+    "mg_title": "Ny Fiteny Malagasy",
+    "mg_desc": "Teny nibeazana sy tenim-pirenena ampiasain'ny Malagasy maherin'ny 30 tapitrisa. Mitondra ny fahendrena, ny ohabolana ary ny kolontsaina maha-isika antsika.",
+    "fr_title": "Ny Teny Frantsay (Français)",
+    "fr_desc": "Fiteny ofisialy fampiasa amin'ny fitantanan-draharaha, ny fampianarana ary ny fifanakalozana ara-barotra amin'ny tontolo miteny frantsay.",
+    "en_title": "Ny Teny Anglisy (English)",
+    "en_desc": "Fiteny iraisam-pirenena amin'ny tontolon'ny haitao, ny siansa ary ny varotra eran-tany, mampifandray an'i Madagasikara amin'izao tontolo izao.",
+    "section_tech_title": "Fomba fiasan'ny teknolojia",
+    "frontend_tech_desc": "Eo amin'ny frontend, React 19 sy Vite miaraka amin'ny react-i18next dia mitahiry ny safidy ao anatin'ny localStorage.",
+    "backend_tech_desc": "Eo amin'ny backend, FastAPI dia mandinika avy hatrany ny ?lang= na ny lohatenin-drakitra HTTP Accept-Language.",
+    "architecture_title": "Rafitry ny Tetikasa",
+    "tester_title": "Toerana Fanandramana ny Fiteny",
+    "tester_desc": "Andramo eto ny fomba famalian'ny backend sy ny frontend arakaraka ny fiteny fidinao:"
+  },
+  "footer": {
+    "rights": "Zo rehetra voatokana.",
+    "description": "Fampiharana maoderina amin'ny fiteny maro vita amin'ny React, Vite ary FastAPI.",
+    "built_with": "Namboarina tamin'ny fitiavana ho an'i Madagasikara sy ny tontolo nomerika."
+  },
+  "switcher": {
+    "select_label": "Hisafidy fiteny",
+    "current": "Fiteny ampiasaina ankehitriny"
+  }
+}

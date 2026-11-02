@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Multilangage",
+    "tagline": "Trilingual Platform Malagasy • Français • English",
+    "badge": "Active Trilingual Project"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "catalog": "Catalog",
+    "api_docs": "API Docs",
+    "status_connected": "Backend Connected",
+    "status_disconnected": "Backend Disconnected"
+  },
+  "hero": {
+    "badge": "🇲🇬 Malagasy • 🇫🇷 Français • 🇬🇧 English",
+    "title_part1": "Boundless digital experience,",
+    "title_part2": "crafted across three living languages.",
+    "subtitle": "Switch languages seamlessly on both Frontend (React + i18next) and Backend (FastAPI). Dynamic data, categories, and system messages adapt instantly.",
+    "btn_explore": "Explore Catalog",
+    "btn_about": "About the Project",
+    "btn_add_item": "Add New Product"
+  },
+  "features": {
+    "instant_i18n_title": "Instant Language Switch",
+    "instant_i18n_desc": "Toggle smoothly between Malagasy, French, and English without any page reload.",
+    "fullstack_title": "Fullstack Synchronization",
+    "fullstack_desc": "FastAPI negotiates content via Accept-Language header or query parameter dynamically.",
+    "rich_content_title": "Madagascar Heritage",
+    "rich_content_desc": "Discover authentic local treasures meticulously curated in every language."
+  },
+  "catalog": {
+    "title": "Authentic Heritage Catalog",
+    "subtitle": "Every product is recorded in Malagasy, French, and English, served directly by FastAPI.",
+    "search_placeholder": "Search for a product, spice, artisan craft...",
+    "category_all": "All Products",
+    "category_spices": "Spices & Aromatics",
+    "category_handicraft": "Handicrafts",
+    "category_textile": "Textiles & Silk",
+    "category_coffee": "Specialty Coffee",
+    "in_stock": "In Stock",
+    "out_of_stock": "Sold Out",
+    "price_label": "Price",
+    "loading": "Loading data from FastAPI backend...",
+    "error_loading": "Unable to connect to FastAPI backend. Ensure it is running on port 8000.",
+    "empty": "No products match your search criteria.",
+    "details_btn": "Multilingual Details",
+    "delete_btn": "Delete"
+  },
+  "item_modal": {
+    "title": "Add Trilingual Product",
+    "subtitle": "Fill in details in all three languages for a complete multilingual experience.",
+    "name_fr": "Name (French)",
+    "name_mg": "Name (Malagasy)",
+    "name_en": "Name (English)",
+    "desc_fr": "Description (French)",
+    "desc_mg": "Description (Malagasy)",
+    "desc_en": "Description (English)",
+    "category": "Category",
+    "price": "Price (€)",
+    "submit": "Save Product",
+    "cancel": "Cancel",
+    "success": "Product created successfully!"
+  },
+  "about": {
+    "title": "Comprehensive Multilingual Architecture",
+    "subtitle": "Engineered to celebrate Madagascar's linguistic heritage and international connectivity.",
+    "section_languages_title": "The Three Pillars of the Project",
+    "mg_title": "Malagasy (Fiteny Malagasy)",
+    "mg_desc": "National and mother tongue spoken by over 30 million people. It embodies ancestral poetry, proverbs (ohabolana), and the cultural soul of the Red Island.",
+    "fr_title": "French (Le Français)",
+    "fr_desc": "Official language widely used in education, administration, and regional commerce across the Francophone world.",
+    "en_title": "English",
+    "en_desc": "Global language of modern technology, international trade, and science, linking Madagascar to worldwide opportunities.",
+    "section_tech_title": "How the Multilingual Stack Operates",
+    "frontend_tech_desc": "Frontend powered by React 19 + Vite with react-i18next, modular JSON translation bundles, and persistent language storage.",
+    "backend_tech_desc": "Backend driven by FastAPI dynamically reading ?lang= or HTTP Accept-Language headers to return localized responses and Pydantic schemas.",
+    "architecture_title": "Modular Project Structure",
+    "tester_title": "Language Interactive Sandbox",
+    "tester_desc": "Test how both the backend and frontend react in real-time to language changes:"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "description": "Modern multilingual web application built with React, Vite, and FastAPI.",
+    "built_with": "Crafted with passion for Madagascar and modern software engineering."
+  },
+  "switcher": {
+    "select_label": "Switch language",
+    "current": "Current language"
+  }
+}

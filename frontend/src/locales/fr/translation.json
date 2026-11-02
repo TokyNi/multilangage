@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Multilangage",
+    "tagline": "Plateforme Trilingue Malagasy • Français • Anglais",
+    "badge": "Projet Trilingue Actif"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "catalog": "Catalogue",
+    "api_docs": "Documentation API",
+    "status_connected": "Backend Connecté",
+    "status_disconnected": "Backend Déconnecté"
+  },
+  "hero": {
+    "badge": "🇲🇬 Malagasy • 🇫🇷 Français • 🇬🇧 English",
+    "title_part1": "L'expérience numérique sans frontières,",
+    "title_part2": "en trois langues vivantes.",
+    "subtitle": "Changez de langue instantanément sur le Frontend (React + i18next) et sur le Backend (FastAPI). Les données et les messages s'adaptent automatiquement.",
+    "btn_explore": "Explorer le Catalogue",
+    "btn_about": "Découvrir le Projet",
+    "btn_add_item": "Ajouter un Produit"
+  },
+  "features": {
+    "instant_i18n_title": "Changement Instantané",
+    "instant_i18n_desc": "Basculez entre le Malagasy, le Français et l'Anglais sans aucun rechargement de page.",
+    "fullstack_title": "Synchronisation Fullstack",
+    "fullstack_desc": "Le backend FastAPI négocie la langue via l'en-tête Accept-Language ou le paramètre de requête.",
+    "rich_content_title": "Patrimoine de Madagascar",
+    "rich_content_desc": "Découvrez des produits locaux emblématiques décrits avec précision dans chaque langue."
+  },
+  "catalog": {
+    "title": "Catalogue de Produits d'Origine",
+    "subtitle": "Chaque article est enregistré en Malagasy, Français et Anglais, servi directement par FastAPI.",
+    "search_placeholder": "Rechercher un produit, une épice, un artisanat...",
+    "category_all": "Tous les produits",
+    "category_spices": "Épices & Aromates",
+    "category_handicraft": "Artisanat",
+    "category_textile": "Textile & Soie",
+    "category_coffee": "Café de Terroir",
+    "in_stock": "En stock",
+    "out_of_stock": "Épuisé",
+    "price_label": "Prix",
+    "loading": "Chargement des données depuis FastAPI...",
+    "error_loading": "Impossible de joindre le backend FastAPI. Vérifiez qu'il est lancé sur le port 8000.",
+    "empty": "Aucun produit ne correspond à votre recherche.",
+    "details_btn": "Détails multilingues",
+    "delete_btn": "Supprimer"
+  },
+  "item_modal": {
+    "title": "Ajouter un produit trilingue",
+    "subtitle": "Renseignez les informations dans les trois langues pour une expérience multilingue complète.",
+    "name_fr": "Nom (Français)",
+    "name_mg": "Nom (Malagasy)",
+    "name_en": "Nom (English)",
+    "desc_fr": "Description (Français)",
+    "desc_mg": "Description (Malagasy)",
+    "desc_en": "Description (English)",
+    "category": "Catégorie",
+    "price": "Prix (€)",
+    "submit": "Enregistrer le produit",
+    "cancel": "Annuler",
+    "success": "Produit créé avec succès !"
+  },
+  "about": {
+    "title": "Une Architecture Multilingue Complète",
+    "subtitle": "Conçue pour célébrer la richesse linguistique de Madagascar et l'ouverture internationale.",
+    "section_languages_title": "Les Trois Langues au Cœur du Projet",
+    "mg_title": "Le Malagasy (Fiteny Malagasy)",
+    "mg_desc": "Langue nationale et maternelle parlée par plus de 30 millions de Malgaches. Elle porte la poésie, les proverbes (ohabolana) et l'âme culturelle de l'Île Rouge.",
+    "fr_title": "Le Français",
+    "fr_desc": "Langue officielle d'usage administratif, éducatif et économique à Madagascar, facilitant les échanges dans tout l'espace francophone.",
+    "en_title": "L'Anglais (English)",
+    "en_desc": "Langue globale du commerce, des technologies numériques et des relations internationales, ouvrant Madagascar sur le monde entier.",
+    "section_tech_title": "Comment fonctionne la pile multilingue ?",
+    "frontend_tech_desc": "Sur le frontend, React 19 et Vite utilisent react-i18next avec des fichiers de traduction modulaires JSON et mémorisation du choix dans localStorage.",
+    "backend_tech_desc": "Sur le backend, FastAPI inspecte dynamiquement le paramètre ?lang= ou l'en-tête HTTP Accept-Language pour délivrer des réponses et des modèles Pydantic traduits.",
+    "architecture_title": "Structure Modulaire du Projet",
+    "tester_title": "Bac à sable de test linguistique",
+    "tester_desc": "Testez en direct la réaction du backend et du frontend selon la langue sélectionnée :"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "description": "Application multilingue moderne réalisée avec React, Vite et FastAPI.",
+    "built_with": "Fait avec passion pour Madagascar et le monde numérique."
+  },
+  "switcher": {
+    "select_label": "Changer de langue",
+    "current": "Langue actuelle"
+  }
+}
